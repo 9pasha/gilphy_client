@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'PermanentMarker';
+    src: url(/fonts/PermanentMarker-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: darkgrey;
+    width: 100%;
+    height: 100%;
+}
+
+.search {
+    position: relative;
+    margin: 0 auto;
+    height: 92px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: 'PermanentMarker';
+    font-size: 35px;
+}
+
+.search__input {
+    width: 220px;
+    height: 30px;
+}
+
+.search__btn {
+    background-color: ivory;
+    width: 70px;
+    height: 30px;
+    outline: none;
+    border: 3px solid goldenrod;
+    color: darkslategray;
+    font-weight: bold;
+}
+
+.main-block {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    background-color: cadetblue;
+}
+
+.main-block__gif {
+    display: flex;
+    width: 270px;
+    height: 250px;
+    margin-top: 15px;
+    background-color: darkkhaki;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    border: 2px solid brown;
+    border-radius: 20px;
+}
+
+.gif {
+    position: relative;
+    margin: 0 auto;
+    top: 10px;
+    width: 200px;
+    height: 150px;
+}
+
